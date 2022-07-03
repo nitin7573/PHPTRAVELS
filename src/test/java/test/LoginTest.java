@@ -19,7 +19,7 @@ public class LoginTest extends BaseTest{
 	public void verifyLogin() {
 		lp.login("user@phptravels.com", "demouser");
 		System.out.println(driver.getTitle());
-		String exp=driver.getTitle();
+		String exp="Dashboard - PHPTRAVELS";
 		Assert.assertEquals(driver.getTitle(), exp);
 		
 		

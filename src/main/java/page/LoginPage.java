@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 	
+	//1
+	
 	@FindBy(xpath="//div[@class='form-group']//input[@type='email']")
 	private WebElement usernameBox;
 	
